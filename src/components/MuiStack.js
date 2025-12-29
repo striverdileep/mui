@@ -1,7 +1,7 @@
-import React from 'react'
-import {Stack} from "@mui/material"
-import {Typography} from '@mui/material';
-import {Button} from '@mui/material';
+import React from "react";
+import { Stack } from "@mui/material";
+import { Typography } from "@mui/material";
+import { Button } from "@mui/material";
 function MuiStack() {
   return (
     <div>
@@ -13,10 +13,12 @@ function MuiStack() {
       <Stack spacing={4} direction="column" display="inline-flex">
         <Typography variant="h6">Title</Typography>
         <Typography>Description text goes here</Typography>
-        <Button variant="contained" disableRipple >Submit</Button>
+        <Button variant="contained" disableRipple>
+          Submit
+        </Button>
       </Stack>
     </div>
   );
 }
 
-export default MuiStack
+export default MuiStack;

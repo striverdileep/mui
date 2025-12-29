@@ -15,6 +15,7 @@ const MuiBottomNavigation = () => {
       onChange={(event, newValue) => {
         setValue(newValue);
       }}
+      showLabels 
     >
       <BottomNavigationAction label="Home" icon={<HomeIcon />} />
       <BottomNavigationAction label="Search" icon={<SearchIcon />} />

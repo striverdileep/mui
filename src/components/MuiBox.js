@@ -12,7 +12,6 @@ function MuiBox() {
             height:"100px",
             width:"100px",
             padding:"100px"
-
         }
       }>Second Box</Box>
     </div>

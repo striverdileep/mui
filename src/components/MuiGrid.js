@@ -1,6 +1,7 @@
 import React from 'react'
 import {Grid,Box} from "@mui/material"
 function MuiGrid() {
+  // rowSpacing, Column Spacing, 
   return (
     <div>
       <Grid container>
